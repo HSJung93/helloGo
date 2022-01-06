@@ -1,7 +1,7 @@
-module example.com/hello
+module example/hello
 
 go 1.17
 
-replace example.com/greetings => ../greetings
+replace example/greetings => ../greetings
 
-require example.com/greetings v0.0.0-00010101000000-000000000000
+require example/greetings v0.0.0-00010101000000-000000000000
